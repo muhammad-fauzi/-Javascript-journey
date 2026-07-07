@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+    <div id="container">
+        <div id="boxcontainer">
+            <div id="judul">
+                <h1>Daftar Belanja</h1>
+                <h3 class="tanggal"> 
+                    <!--disini ada tanggal belanja-->
+                </h3>
+            </div>
+            <div id = 'kolominput>
+                <input type="text" id="daftar">
+                <button id="tambah">Tambah</button>
+            </div>
+            <ul id="barangbelanja">
+                <!--di sini muncul li dan tombol delete daftar barang belanja-->
+            </ul>
+        </div>
+    </div>
+*/
+#container{
+    min-width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#boxcontainer{
+    min-width: 400px;
+    height: 400px;
+    border: 1px solid black;
+}
+#judul{
+    padding: 20px 0;
+}
+#judul h1{
+    text-align: center;
+}
+#judul h4{                  /*js*/
+    text-align: center;
+    padding: 5px 0;
+}
+#kolominput{
+    text-align: center;
+}
+#kolominput input{
+    width: 220px;
+    height: 30px;
+    padding-left: 5px;
+}
+#kolominput button{ 
+    margin: 0 8px;
+    width: 70px;
+    height: 30px;
+}
+#kolominput p{              /*js*/
+    text-align: left;
+    padding: 5px;
+    margin-left: 39px;
+}
+#barangbelanja{
+    text-align: left;
+    padding: 7px;
+    margin-top: 10px;
+}
+#barangbelanja li{          /*js*/
+    list-style: none;
+    margin-left: 39px;
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+}
+#barangbelanja li button{           /*js*/
+    width: 23px;
+    font-weight: bold;
+}
+#barangbelanja li button:hover{
+    color: white;
+    background-color: red;
+}

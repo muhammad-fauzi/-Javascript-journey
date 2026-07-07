@@ -1,0 +1,50 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+    <div id="container">
+        <div id="boxcontainer">
+            <div class="title">
+                <h1>COLOR PICKER</h1>
+            </div>
+         
+            <input type="color" id="choosencolor">
+            <P>Color code: <span class="colorcode"> #fffff</span></P>
+        </div>
+        <div id="colordisplay">
+            <!--di sini muncul warna-->
+        </div>
+    </div>
+*/
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: auto;
+}
+#boxcontainer{
+    background-color: white;
+    display: grid;
+    place-items: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+input{
+    width: 100px;
+    height: 40px;
+}
+.colordisplay{
+    width: 250px;
+    height: 70px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}

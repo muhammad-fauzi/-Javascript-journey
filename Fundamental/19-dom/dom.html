@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        .bg-red{
+            background-color: red;
+        }
+    </style>
+</head> 
+<body>
+<!--INI UNTUK CONTOH GET ELEMENT S/D QUERYSELECTOR-->
+    <h1 id="header1"> Header-1</h1>
+    <p class="paragraf1"> Paragraf-1</p>
+    <ul>
+        <li>item 1</li>
+        <li id="text2">item 2</li>
+        <li class="text3">item 3</li>
+    </ul>
+
+<!--INI UNTUK CONTOH CREATE ELEMENT DAN APPEND CHILD-->
+    <section>
+        <h1></h1>
+    </section>
+
+<!--INI UNTUK CONTOH REMOVE-->
+<div id="kelakuan">
+    <h1>ADUHH</h1>
+</div>
+
+<!--INI UNTUK CONTOH SET ATTRIBUTE-->
+<a id="google"> akses google </a>
+
+<!--INI UNTUK CONTOH ADD EVENT LISTENER-->
+<button id ="btn"> KLIK DI SINI</button>
+
+
+<!--PERCOBAAN UBAH TULISAN SEKALI KLIK DAN TIDAK KEMBALI KE TULISAN AWAL-->
+<h1 id="pagi">Selamat Pagi</h1>
+<button class="pencet">Silahkan Pencet</button>
+
+
+<!--PERCOBAAN UBAH TULISAN TIAP KALI DIKLIK TULISAN BERUBAH-->
+<h1 id="cinta">Kamu sayang gak sama aku?</h1>
+<button class="tombolJawaban">klik jawaban</button>
+
+
+<!--MANIPULASI ELEMEN-->
+<div>
+    <h1 id="cover">Judul</h1>
+    <p id="depan">Teks Kalimat</p>
+    <p>ini text</p>
+</div>
+
+    <p id="paragraf">ini paragraf</p>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li class="ukuranfont">item 3</li>
+    </ul>
+
+
+<!--MENAMBAH SEBUAH ELEMENT SEBELUM DAN SESUDAH H2-->
+<!--H2 disini hanya sebagai contoh elemen acuan-->
+
+<div id="akar">
+                                        <!--elemen sebelum h2 akan ditulis di sini-->
+    <h2 id="acuan"></h2>
+                                        <!--elemen sesudah h2 akan ditulis di sini-->
+</div>
+
+<!--MENGHAPUS ELEMEN YANG ADA DI DALAM DIV-->
+<div class="hapus">
+    <p class="kalimathapus"> kalimat ini akan di hapus</p>
+</div>
+
+<!--DOM TRAVERSAL-->
+
+<h1>Judul DOM TRAVERSAL</h1>
+<p>paragraf DOM TRAVERSAL</p>
+<ul id="list-item">
+    <li id="item-1">item-1</li>
+    <li id="item-2">item-2</li>
+    <li id="item-3">item-3</li>
+</ul>
+
+
+
+<script src="dom.js"></script>
+</body>
+</html>
